@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@800&family=Roboto:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+html,body{
+    margin:0;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5;
+}
+
+nav {
+    font-size: 20px;
+    border-bottom: 1px solid rgb(230,230,230);
+    padding: 10px;
+    position: fixed;
+    top: 0px;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    box-shadow: 0px 10px 20px rgba(0,0,0,0.03)
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+nav button{
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    background-color:#779A5B;
+    color: white;
+    font-size: 15px;
+    float:right;
+    border:none;
+    transition: background-color 0.15s;
+}
+
+nav button:hover{
+    background-color: rgb(100, 180, 20);
+}
+
+nav button:active{
+    background-color: rgb(90, 160, 20);
+}
+
+nav * {
+    margin: 0px 15px;
+}
+
+h1 {
+    color:#779A5B;
+    font-size: 50px;
+}
+
+h1,h2{
+    font-family: "Playfair Display", serif
+}
+
+#main-container{
+    margin: auto;
+    width: 600px;
+    margin-top: 100px;
+}
+
+img{
+    width: 100%;
+    border-radius: 5px;
+}
+
+table{
+    border: 1px solid rgb(220,220,220);
+}
+
+td,th{
+    padding: 5px;
+    border: 1px solid rgb(220,220,220);
+}

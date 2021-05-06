@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Pizza Recipie</title>
+        <link rel="stylesheet" href="style.css">
+        <script defer src="script.js"></script>
+    </head>
+    <body>
+        <nav>
+            <a href="https://google.com">Home</a>
+            <a href="https://google.com">About</a>
+            <button>Log in</button>
+        </nav>
+        <div id="main-container" class="container">
+            <h1>Pepperoni Pizza</h1>
+            <p>Tony Zhang March 27 2021</p>
+            <img src="images/pizza.jpeg" alt="image of a pizza">
+            <h2>Ingredients</h2>
+            <ol>
+                <li>Some Pepperoni</li>
+                <li>Cheese</li>
+                <li>Flour</li>
+            </ol>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Amount of people</th>
+                        <th>Cups of cheese</th>
+                        <th>Amount of Flour</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1 person</td>
+                        <td>2 cups</td>
+                        <td>5 cups</td>
+                    </tr>
+                    <tr>
+                        <td>2 people</td>
+                        <td>4 cups</td>
+                        <td>10 cups</td>
+                    </tr>
+                    <tr>
+                        <td>5 people</td>
+                        <td>10 cups</td>
+                        <td>25 cups</td>
+                    </tr>
+                </tbody>
+            </table>
+            <p>Amount of people:</p>
+            <input id="people-input" onchange="updateData(this.value)" type="number" value="0">
+            <p id = "cheese-amount">Cups of cheese: </p>
+            <p id = "flour-amount">Amount of flour: </p>
+            <h2>The Dough</h2>
+            <p>Just do it - Nike <sup>TM</sup> <br>
+            Or buy it <em>somewhere</em> idk </p>
+            <h2>The rest of the pizza</h2>
+            <p>place sauce on dough, place cheese on sauce, place pepperoni on cheese, place pizza in oven.</p>
+            <h2>Eat</h2>
+            <p> Eat </p>
+            <a href="something.com">1234</a>
+        </div>
+    </body>
+</html>
